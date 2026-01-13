@@ -44,10 +44,10 @@ body {
 /* Hover del botón */
 #boton:hover {
     transform: translateY(-3px);
-    box-shadow: 0 8px 18px rgba(0,0,0,0.4);
+    box-shadow: 0 8px 18px rgba(179, 0, 255, 0.63);
 }
 
 /* Click del botón */
 #boton:active {
-    transform: scale(0.95);
+    transform: scale(0.90);
 }
