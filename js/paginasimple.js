@@ -5,7 +5,7 @@ window.onload = function() {
     boton.onclick = mostrarnombre;
     function mostrarnombre(){
         const nombre = document.getElementById("nombre").value;
-        const url = "http://jaime5111-env.eba-8xqyp5gb.us-east-1.elasticbeanstalk.com/api/saludos?nombre=" + encodeURIComponent(nombre);
+        const url = "https://jaime5111-env.eba-8xqyp5gb.us-east-1.elasticbeanstalk.com/api/saludos?nombre=" + encodeURIComponent(nombre);
         
         fetch(url)
             .then(response => response.json())
